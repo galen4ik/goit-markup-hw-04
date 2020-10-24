@@ -185,6 +185,7 @@ li{
 }
 
 
+
 /* hero */
 .hero {
     text-align: center;
@@ -236,7 +237,7 @@ li{
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: var(--main-background);
-    /* outline: 2px solid teal; */
+    
 }
 
 .visually-hidden {
@@ -284,13 +285,40 @@ margin-right: 30px;
     height: 75px;
 }
 
+.details-ul .item::before{
+display: block;
+content: "";
+height: 120px;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+background-color: var(--bcg-team);
+border-radius: 4px;
+margin-bottom: 30px;
+
+}
+
+.icon-antenna::before{
+    background-image: url(../img/antenna.svg);     
+}
+
+.icon-clock::before{
+    background-image: url(../img/clock.svg);
+}
+
+.icon-plan::before{
+   background-image: url(../img/diagram1.svg);
+}
+
+.icon-cosmonaut::before{
+    background-image: url(../img/astronaut.svg);
+}
 
 /* occupation */
 .occupation{
     /* padding-top: 94px; */
     padding-bottom: 94px;
     
-
     background-color: var(--main-background);
 
 }
