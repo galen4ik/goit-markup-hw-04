@@ -58,7 +58,7 @@
     --hero-footer-bcg: #2F303A;
     --blue: #2196F3;
     --footer-address: rgba(255, 255, 255, 0.6);
-    --bcg-team: #F5F4FA
+    --bcg-team: #F5F4FA;
     --icon-fill-col: #AFB1B8;
     }
 
@@ -246,7 +246,7 @@ li{
 .details{
     padding-top: 94px;
     padding-bottom: 94px;
-    background-color: var(--main-background);
+    background-color: var(--white);
     
 }
 
@@ -261,11 +261,12 @@ li{
     overflow: hidden;
   }
 
-    .details-ul{
+    .details-ul {
     display: flex;
+    flex-wrap: wrap;
     }
 
-.details-title{
+.details-title {
     margin: 0;
     margin-bottom: 10px;
     width: 270px;
@@ -293,6 +294,7 @@ margin-right: 30px;
     letter-spacing: 0.03em;
     width: 270px;
     height: 75px;
+    
 }
 
 .details-ul .item::before{
@@ -305,6 +307,7 @@ background-position: center;
 background-color: var(--bcg-team);
 border-radius: 4px;
 margin-bottom: 30px;
+
 
 }
 .details-ul .item:nth-child(1)::before{
@@ -330,7 +333,7 @@ margin-bottom: 30px;
     /* padding-top: 94px; */
     padding-bottom: 94px;
     
-    background-color: var(--main-background);
+    background-color: var(--white);
 
 }
 .occupation-title{
@@ -358,7 +361,7 @@ margin-bottom: 30px;
 }
 
 /* team */
-.team{
+.team {
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: var(--bcg-team);
