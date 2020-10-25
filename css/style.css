@@ -59,6 +59,7 @@
     --blue: #2196F3;
     --footer-address: rgba(255, 255, 255, 0.6);
     --bcg-team: #F5F4FA
+    --icon-fill-col: #AFB1B8;
     }
 
     html{
@@ -188,16 +189,25 @@ li{
 
 /* hero */
 .hero {
+    display: flex;
     text-align: center;
+    height: 600px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ),
+    url(../img/hero-pic.jpg);   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
     padding-top: 200px;
     padding-bottom: 200px;
-
-    background-color: var(--hero-footer-bcg);   
-    
+    background-color: var(--hero-footer-bcg); 
 }
 
 .hero-cont{
-    
     display: flex;
     flex-direction: column;
     align-items: center
@@ -289,7 +299,7 @@ margin-right: 30px;
 display: block;
 content: "";
 height: 120px;
-background-size: contain;
+/* background-size: contain; */
 background-repeat: no-repeat;
 background-position: center;
 background-color: var(--bcg-team);
@@ -297,22 +307,23 @@ border-radius: 4px;
 margin-bottom: 30px;
 
 }
-
-.icon-antenna::before{
-    background-image: url(../img/antenna.svg);     
+.details-ul .item:nth-child(1)::before{
+    background-image: url(../img/antenna.svg);
 }
 
-.icon-clock::before{
+.details-ul .item:nth-child(2)::before{
     background-image: url(../img/clock.svg);
 }
 
-.icon-plan::before{
-   background-image: url(../img/diagram1.svg);
+.details-ul .item:nth-child(3)::before{
+    background-image: url(../img/diagram1.svg);
 }
 
-.icon-cosmonaut::before{
+.details-ul .item:nth-child(4)::before{
     background-image: url(../img/astronaut.svg);
 }
+/* 
+ */
 
 /* occupation */
 .occupation{
