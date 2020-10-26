@@ -185,26 +185,11 @@ li{
     color: var(--blue);
 }
 
-.icon-envelope{
+.info-list .icon{
     margin-right: 10px;
     fill: currentColor;
 }
 
-.icon-envelope:hover,
-.icon-envelope:focus{
-    fill: var(--blue);
-}
-
-.icon-phone{
-    margin-right: 10px;
-    fill: currentColor;
-    
-}
-
-.icon-phone:hover,
-.icon-phone:focus{
-    fill: var(--blue);
-}
 
 /* hero */
 .hero {
@@ -283,6 +268,8 @@ li{
 .details-ul {
     display: flex;
     /* flex-wrap: wrap; */
+    margin: 0;
+    padding: 0;
     }
 
 .details-title {
@@ -318,12 +305,13 @@ margin-right: 30px;
 
 .icon-box{
     display: flex;
-    height: 120px;
     justify-content: center;
     align-items: center;
-    background-color: var(--bcg-team);
-    border-radius: 4px;
+    height: 120px;
     margin-bottom: 30px;
+    border-radius: 4px;
+    background-color: var(--bcg-team);
+      
 }
 
 
