@@ -188,11 +188,23 @@ li{
 .icon-envelope{
     width: 16px;
     height: 12px;
+    margin-right: 10px;
+}
+
+.icon-envelope:hover,
+.icon-envelope:focus{
+    color: var(--blue);
 }
 
 .icon-phone{
     width: 10px;
     height: 16px;
+    margin-right: 10px;
+}
+
+.icon-phone:hover,
+.icon-phone:focus{
+    color: var(--blue);
 }
 
 /* hero */
