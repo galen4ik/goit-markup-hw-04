@@ -185,7 +185,15 @@ li{
     color: var(--blue);
 }
 
+.icon-envelope{
+    width: 16px;
+    height: 12px;
+}
 
+.icon-phone{
+    width: 10px;
+    height: 16px;
+}
 
 /* hero */
 .hero {
