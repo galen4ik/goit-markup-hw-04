@@ -185,6 +185,10 @@ li{
     color: var(--blue);
 }
 
+.icon{
+    padding: 0;
+    margin: 0;
+}
 .info-list .icon{
     margin-right: 10px;
     fill: currentColor;
@@ -413,6 +417,35 @@ margin-right: 30px;
     margin: 0;
 }
 
+.social-list{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.social-item.item:not(:last-child){
+    margin-right: 10px;
+}
+
+.social-link{
+    display: flex; 
+    justify-content: center; 
+    fill: var(--icon-fill-col);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+
+}
+
+.social-link:hover,
+.social-link:focus{
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.social-link .icon{
+    
+}
 /* Portfolio */
 
 /* Фильтры */
