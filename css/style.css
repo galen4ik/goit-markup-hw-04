@@ -186,9 +186,8 @@ li{
 }
 
 .icon-envelope{
-    width: 16px;
-    height: 12px;
     margin-right: 10px;
+    fill: currentColor;
 }
 
 .icon-envelope:hover,
@@ -197,9 +196,9 @@ li{
 }
 
 .icon-phone{
-    width: 10px;
-    height: 16px;
     margin-right: 10px;
+    fill: currentColor;
+    
 }
 
 .icon-phone:hover,
