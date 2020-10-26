@@ -192,7 +192,7 @@ li{
 
 .icon-envelope:hover,
 .icon-envelope:focus{
-    color: var(--blue);
+    fill: var(--blue);
 }
 
 .icon-phone{
@@ -203,7 +203,7 @@ li{
 
 .icon-phone:hover,
 .icon-phone:focus{
-    color: var(--blue);
+    fill: var(--blue);
 }
 
 /* hero */
@@ -280,9 +280,9 @@ li{
     overflow: hidden;
   }
 
-    .details-ul {
+.details-ul {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     }
 
 .details-title {
@@ -316,36 +316,16 @@ margin-right: 30px;
     
 }
 
-.details-ul .item::before{
-display: block;
-content: "";
-height: 120px;
-/* background-size: contain; */
-background-repeat: no-repeat;
-background-position: center;
-background-color: var(--bcg-team);
-border-radius: 4px;
-margin-bottom: 30px;
-
-
-}
-.details-ul .item:nth-child(1)::before{
-    background-image: url(../img/antenna.svg);
+.icon-box{
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bcg-team);
+    border-radius: 4px;
+    margin-bottom: 30px;
 }
 
-.details-ul .item:nth-child(2)::before{
-    background-image: url(../img/clock.svg);
-}
-
-.details-ul .item:nth-child(3)::before{
-    background-image: url(../img/diagram1.svg);
-}
-
-.details-ul .item:nth-child(4)::before{
-    background-image: url(../img/astronaut.svg);
-}
-/* 
- */
 
 /* occupation */
 .occupation{
