@@ -585,10 +585,13 @@ margin-right: 10px;
     height: 252px;
     padding-top: 60px;
     padding-bottom: 60px;
-
-    background-color: var(--hero-footer-bcg);
-    
+    background-color: var(--hero-footer-bcg);   
 }
+.address-footer {
+    display: inline-block;
+    margin-right: 70px;
+}
+
 .footer-logo {
     display: inline-block;
     margin-bottom: 20px;
@@ -650,7 +653,16 @@ margin-right: 10px;
     color: var(--blue);
 }
 
+.footer-social {
+    display: inline-block;
+    
+}
+
 .footer-social-title{
+    
+    margin-bottom: 20px;
+    padding: 0;
+
     color: var(--white);
     font-family: Roboto;
     font-weight: bold;
@@ -660,4 +672,3 @@ margin-right: 10px;
     text-transform: uppercase;
 }
 
-.
