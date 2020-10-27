@@ -80,6 +80,10 @@ li{
     list-style: none;
 }
 
+h1, h2, h3, h4{
+    margin: 0;
+}
+
 .list{
     padding: 0;
     margin: 0;
@@ -359,7 +363,6 @@ margin-right: 30px;
     
 }
 .team-title {
-    margin: 0;
     margin-bottom: 50px;
 
     color: var(--primary-text-color);
@@ -444,6 +447,41 @@ margin-right: 10px;
     background-color: var(--blue);
 }
 
+/* Клиенты */
+
+.clients{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.client-title{
+    margin-bottom: 50px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.client-list{
+    display: flex;
+    justify-content: center;
+    background-color: var(--white);
+    
+}
+
+.client-list .item{
+    width: 170px;
+    height: 90px;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.client-list .item:not(:last-child){
+    margin-right: 30px;
+}
 
 /* Portfolio */
 
