@@ -406,6 +406,7 @@ margin-right: 30px;
     margin: 0;
     margin-bottom: 10px;
 }
+
 .team-text{
     color: var(--text-color-p);
 
@@ -419,33 +420,31 @@ margin-right: 30px;
 
 .social-list{
     display: flex;
-    justify-content: center;
+    justify-content: center;  
+    margin-top: 16px;
+}
+
+.social-item:not(:last-child){
+margin-right: 10px;
     
 }
-
-.social-item.item:not(:last-child){
-    margin-right: 10px;
-}
-
 .social-link{
     display: flex; 
     justify-content: center; 
+    align-items: center;
     fill: var(--icon-fill-col);
     width: 44px;
     height: 44px;
     border-radius: 50%;
-
 }
 
 .social-link:hover,
 .social-link:focus{
-    color: var(--white);
+    fill: var(--white);
     background-color: var(--blue);
 }
 
-.social-link .icon{
-    
-}
+
 /* Portfolio */
 
 /* Фильтры */
